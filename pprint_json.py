@@ -4,9 +4,9 @@ import sys
 
 def load_data(filepath):
     try:
-        file = open(filepath, 'r')
-        json_content = json.load(f)
-        file.close()
+        json_file = open(filepath, 'r')
+        json_content = json.load(json_file)
+        json_file.close()
     except IOError:
         json_content = False
     finally:
