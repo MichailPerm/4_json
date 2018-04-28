@@ -1,20 +1,33 @@
 # Prettify JSON
 
-[TODO. There will be project description]
+Скрипт читает данные из файла, переданного ему в качестве аргумента командной строки.
+После этого, он выводит данные в консоль в удобочитаемом виде.
 
 # Quickstart
 
-[TODO]
+Минимальные требования - Python 3.5.
 
-Example of script launch on Linux, Python 3.5:
+Запуск:
 
 ```bash
 
-$ python pprint_json.py <path to file>
-# TODO add output example
+$ python pprint_json.py alco_shops.json
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    37.39703804817934,
+                    55.740999719549094
+                ],
+                "type": "Point"
+            }
+        }
+    ]
+}        
 
 ```
 
 # Project Goals
 
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
+Код написан в образовательных целях. Учебный курс для веб-разработчика - [DEVMAN.org](https://devman.org)
