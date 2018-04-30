@@ -29,6 +29,6 @@ if __name__ == "__main__":
         print("Unable to read file {}.".format(args.filepath))
     else:
         if not json_content:
-            sys.exit("Program finishd it's work, becasue of None json data.")
+            sys.exit("Program finished it's work, becasue of None json data.")
         else:
             pretty_print_json(json_content)
