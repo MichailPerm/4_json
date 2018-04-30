@@ -11,7 +11,7 @@
 
 ```bash
 
-$ python pprint_json.py alco_shops.json
+$ python pprint_json.py ~/User/data/alco_shops.json
 {
     "features": [
         {
@@ -27,6 +27,8 @@ $ python pprint_json.py alco_shops.json
 }        
 
 ```
+
+В  качестве аргумента командной строки передается путь к файлу данных.
 
 # Цели проекта
 
